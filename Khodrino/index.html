@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khodrino</title>
+    <!--swaper js cdn-->
+    <!-- <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+    <!-- Link to css -->
+    <!-- <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <!-- Navbar -->
+<header>
+    <!-- User Account -->
+     <div class="user-account">
+        <a href="signup&signin/index.html">
+            <i class='bx bxs-user-circle'></i>
+            <p>حساب کاربری</p>
+        </a>
+     </div>
+    <!-- Nav Container -->
+    <div class="nav container">
+            <!-- Menu Icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- Logo -->
+            <a href="#" class="logo">Khod<span>rino</span></a>
+            <!-- basket -->
+            <a href="shopping cart/index.html"><i class='bx bx-basket' id="basket-icon"><br><span>سبد خرید</span></i></a>
+            <!-- Nav List-->
+            <ul class="navbar rtl">
+                <li><a href="#home" class="active">خانه</a></li>
+                <li><a href="#category">دسته بندی</a></li>
+                <li><a href="#products">محصولات</a></li>
+                <li><a href="#about-us">درباره ی ما</a></li>
+                <li><a href="#offer">فروش ویژه</a></li>
+            </ul>
+            <!-- Search Icon-->
+            <i class='bx bx-search' id="search-icon"><br><span>جست و جو</span></i>
+            <!-- Search Box -->
+            <div class="search-box container rtl">
+                <input type="search" name="" id="" placeholder="جست و جو ...">
+            </div>
+        </div>
+</header>
+<!-- Home Img -->
+        <img src="img/home-page-car-1.png" alt="" id="home-img">
+<!-- HR Car Move -->
+    <div class="car-move">
+         <img src="img/car-move.png" alt="" id="carMove">
+    </div>
+<!-- Home -->
+<section class="home" id="home">
+    <div class="home-text rtl">
+        <h1>با خودرینو <br>خودروتو <span>نو </span>کن</h1>
+        <p>خودرینو تعمین کننده ی تمامی لوازم خودرو<br> به شرط کیفیت و اصالت محصول</p>
+        <!-- Home Button -->
+        <a href="#" class="btn">همین حالا انتخاب کن</a>
+    </div>
+</section>
+<!-- Cars Section 1-->
+    <!-- Set up your HTML
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div> -->
+ <!-- Swiper -->
+  <!-- <div class="swiper-body">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  </div> -->
+
+<!-- <div class="container">
+    <div class="carousel">
+      <div class="item a">A</div>
+      <div class="item b">B</div>
+      <div class="item c">C</div>
+      <div class="item d">D</div>
+      <div class="item e">E</div>
+      <div class="item f">F</div>
+    </div>
+  </div>
+  <div class="next">Next</div>
+  <div class="prev">Prev</div>
+  <h2>Checkout this article <a href="https://www.forfrontend.com/3d-carousel-css/">Click here</h2> -->
+ <!-- temp
+ vehicles section start 
+ <section class="vehicles" id="vehicles">
+
+    <h1 class="heading">مدل <span>ماشین</span></h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box-slider">
+                <img src="img/Car-category/tiggo-8.jpg" alt="">
+                <div class="content">
+                    <h3>مدل جدید</h3>
+                    <div class="price">تیگو 8</div>
+                    <p>
+                        جدید
+                        <span class="fas fa-circle">ارزان</span> 
+                        <span class="fas fa-circle">ایمن</span> 
+                        <span class="fas fa-circle">باکیفیت</span> 
+                        <span class="fas fa-circle">بروز</span> 
+                    </p>
+                    <a href="#" class="btn">مشاهده</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box-slider">
+                <img src="img/Car-category/Phonix-FX.jpg" alt="">
+                <div class="content">
+                    <h3>مدل جدید</h3>
+                    <div class="price">فونیکس اف ایکس</div>
+                    <p>
+                        جدید
+                        <span class="fas fa-circle">ارزان</span> 
+                        <span class="fas fa-circle">ایمن</span> 
+                        <span class="fas fa-circle">باکیفیت</span> 
+                        <span class="fas fa-circle">بروز</span> 
+                    </p>
+                    <a href="#" class="btn">مشاهده</a>
+                </div>
+            </div>
+            <div class="swiper-slide box-slider">
+                <img src="img/Car-category/tiggo-8.jpg" alt="">
+                <div class="content">
+                    <h3>مدل جدید</h3>
+                    <div class="price">تیگو 8</div>
+                    <p>
+                        جدید
+                        <span class="fas fa-circle">ارزان</span> 
+                        <span class="fas fa-circle">ایمن</span> 
+                        <span class="fas fa-circle">باکیفیت</span> 
+                        <span class="fas fa-circle">بروز</span> 
+                    </p>
+                    <a href="#" class="btn">مشاهده</a>
+                </div>
+            </div>
+            <div class="swiper-slide box-slider">
+                <img src="img/Car-category/tiggo-8.jpg" alt="">
+                <div class="content">
+                    <h3>مدل جدید</h3>
+                    <div class="price">تیگو 8</div>
+                    <p>
+                        جدید
+                        <span class="fas fa-circle">ارزان</span> 
+                        <span class="fas fa-circle">ایمن</span> 
+                        <span class="fas fa-circle">باکیفیت</span> 
+                        <span class="fas fa-circle">بروز</span> 
+                    </p>
+                    <a href="#" class="btn">مشاهده</a>
+                </div>
+            </div>
+            <div class="swiper-slide box-slider">
+                <img src="img/Car-category/tiggo-8.jpg" alt="">
+                <div class="content">
+                    <h3>مدل جدید</h3>
+                    <div class="price">تیگو 8</div>
+                    <p>
+                        جدید
+                        <span class="fas fa-circle">ارزان</span> 
+                        <span class="fas fa-circle">ایمن</span> 
+                        <span class="fas fa-circle">باکیفیت</span> 
+                        <span class="fas fa-circle">بروز</span> 
+                    </p>
+                    <a href="#" class="btn">مشاهده</a>
+                </div>
+            </div>
+            <div class="swiper-slide box-slider">
+                <img src="img/Car-category/tiggo-8.jpg" alt="">
+                <div class="content">
+                    <h3>مدل جدید</h3>
+                    <div class="price">تیگو 8</div>
+                    <p>
+                        جدید
+                        <span class="fas fa-circle">ارزان</span> 
+                        <span class="fas fa-circle">ایمن</span> 
+                        <span class="fas fa-circle">باکیفیت</span> 
+                        <span class="fas fa-circle">بروز</span> 
+                    </p>
+                    <a href="#" class="btn">مشاهده</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+ </section> -->
+<!-- vehicles section end -->
+<!-- Cars Section 2-->
+<section class="cars" id="cars">
+    <div class="heading">
+        <span>تمامی مدل ها</span>
+        <h2>تمامی لوازم خودرو</h2>
+        <p>پشتیبانی همه روزه و ارسال به سراسر کشور</p>
+    </div>
+    <!-- Cars container -->
+    <div class="cars-container container">
+        <!-- Box 1 -->
+        <div class="box">
+            <img src="img/Car-category/Phonix-FX.jpg" alt="">
+            <h2>Phonix Fx</h2>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+            <img src="img/Car-category/tiggo-8.jpg" alt="">
+            <h2>Tiggo 8</h2>
+        </div>
+        <!-- Box 3 -->
+        <div class="box">
+            <img src="img/Car-category/Jac-S5.jpg" alt="">
+            <h2>JAC S5</h2>
+        </div>
+        <!-- Box 4 -->
+        <div class="box">
+            <img src="img/Car-category/Haima-s7.jpg" alt="">
+            <h2>HAIMA S7</h2>
+        </div>
+        <!-- Box 5 -->
+        <div class="box">
+            <img src="img/Car-category/lamari.jpg" alt="">
+            <h2>LAMARI</h2>
+        </div>
+        <!-- Box 6 -->
+        <div class="box">
+            <img src="img/Car-category/bmw-i8.jpg" alt="">
+            <h2>BMW i8</h2>
+        </div>
+    </div>
+</section>
+<!-- About -->
+<section class="about container" id="about">
+    <img src="img/About-us/3hands.jpg" alt="" class="about-img">
+<div class="about-text rtl">
+<span>درباره ی ما</span>
+<h2>تیم توسعه دهندگان ذهن برتر <br> شما لایق بهترین ها هستید </h2>
+<p>تیم توسعه دهندگان ذهن برتر یک تیم جوان با هدف بهبود در بازاریابی خدمات خودرو</p>
+<!-- About Button -->
+<a href="#" class="btn">بیشتر بخوانید</a>
+</div>
+</section>
+<!-- Parts Section -->
+<section class="parts" id="parts">
+    <div class="heading">
+        <span>محصولات</span>
+        <h2>قطعات خودرو</h2>
+        <p>بهترین قیمت با تضمین کیفیت</p>
+    </div>
+    <!-- Parts Container -->
+    <div class="parts-container container">
+        <!-- Box 1 -->
+        <div class="box">
+            <img src="img/Parts/Turbo.png" alt="">
+            <h3>توربو</h3>
+            <span>6.763.000 تومان</span>
+            <i class='bx bxs-star'>(تعداد بازدید 6)</i>
+            <a href="#" class="btn">خرید</a>
+            <a href="#" class="details">جزئیات</a>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+            <img src="img/Parts/Turbo.png" alt="">
+            <h3>توربو</h3>
+            <span>6.763.000 تومان</span>
+            <i class='bx bxs-star'>(تعداد بازدید 6)</i>
+            <a href="#" class="btn">خرید</a>
+            <a href="#" class="details">جزئیات</a>
+        </div>
+        <!-- Box 3 -->
+        <div class="box">
+            <img src="img/Parts/Turbo.png" alt="">
+            <h3>توربو</h3>
+            <span>6.763.000 تومان</span>
+            <i class='bx bxs-star'>(تعداد بازدید 6)</i>
+            <a href="#" class="btn">خرید</a>
+            <a href="#" class="details">جزئیات</a>
+        </div>
+        <!-- Box 4 -->
+        <div class="box">
+            <img src="img/Parts/Turbo.png" alt="">
+            <h3>توربو</h3>
+            <span>6.763.000 تومان</span>
+            <i class='bx bxs-star'>(تعداد بازدید 6)</i>
+            <a href="#" class="btn">خرید</a>
+            <a href="#" class="details">جزئیات</a>
+        </div>
+        <!-- Box 5 -->
+        <div class="box">
+            <img src="img/Parts/Turbo.png" alt="">
+            <h3>توربو</h3>
+            <span>6.763.000 تومان</span>
+            <i class='bx bxs-star'>(تعداد بازدید 6)</i>
+            <a href="#" class="btn">خرید</a>
+            <a href="#" class="details">جزئیات</a>
+        </div>
+        <!-- Box 6 -->
+        <div class="box">
+            <img src="img/Parts/Turbo.png" alt="">
+            <h3>توربو</h3>
+            <span>6.763.000 تومان</span>
+            <i class='bx bxs-star'>(تعداد بازدید 6)</i>
+            <a href="#" class="btn">خرید</a>
+            <a href="#" class="details">جزئیات</a>
+        </div>
+    </div>
+</section>
+<!-- Blog Container -->
+ <section class="blog" id="blog">
+    <div class="heading">
+        <span>فروش ویژه</span>
+        <h2>مصرفی خودرو</h2>
+        <p>بهترین قیمت با تضمین کیفیت</p>
+    </div>
+    <!-- Blog Container -->
+     <div class="blog-container container">
+        <!-- Box1 -->
+        <div class="box rtl">
+            <img src="img/Store/best-motor-oil-hero.png" alt="">
+            <span>روغن موتور تکتاز</span>
+            <h3>خرید روغن موتور با بهترین قیمت</h3>
+            <p>
+                تمامی روغن موتور های بازار متناسب با ماشین شما
+            </p>
+            <a href="" class="blog-btn">ادامه <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <!-- Box2 -->
+        <div class="box rtl">
+            <img src="img/Store/best-motor-oil-hero.png" alt="">
+            <span>روغن موتور تکتاز</span>
+            <h3>خرید روغن موتور با بهترین قیمت</h3>
+            <p>
+                تمامی روغن موتور های بازار متناسب با ماشین شما
+            </p>
+            <a href="" class="blog-btn">ادامه <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <!-- Box3 -->
+        <div class="box rtl">
+            <img src="img/Store/best-motor-oil-hero.png" alt="">
+            <span>روغن موتور تکتاز</span>
+            <h3>خرید روغن موتور با بهترین قیمت</h3>
+            <p>
+                تمامی روغن موتور های بازار متناسب با ماشین شما
+            </p>
+            <a href="" class="blog-btn">ادامه <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+     </div>
+</section>
+<!--
+ Footer 1
+<section class="footer">
+    <div class="footer-container container">
+        <div class="footer-box">
+            <a href="#" class="logo">خود<span>رینو</span></a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-telegram' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <div class="footer-box">
+                <h3>صفحه</h3>
+                <a href="">خانه</a>
+                <a href="">دسته بندی</a>
+                <a href="">محصولات</a>
+                <a href="">فروش ویزه</a>
+            </div>
+            <div class="footer-box">
+                <h3>اعتماد</h3>
+                <a href="">امنیت</a>
+                <a href="">مرجوئی کالا</a>
+                <a href="">حریم خصوصی</a>
+            </div>
+            <div class="footer-box">
+                <h3>مخم نمیکشه</h3>
+                <p>نمیدونم</p>
+                <p>نمیدونم</p>
+                <p>نمیدونم</p>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- Footer 2 -->
+ <footer class="footer container">
+    <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privecy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment option</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                 <h4>follow us</h4>
+                 <div class="social-links">
+                     <a href="#"><i class='bx bxl-instagram' ></i></a>
+                     <a href="#"><i class='bx bxl-telegram' ></i></a>
+                     <a href="#"><i class='bx bxl-youtube' ></i></a>
+                     <a href="#"><i class='bx bxl-twitter' ></i></a>
+                 </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+<!-- Link To Js -->
+<script src="main.js"></script>
+        <!-- slider -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+</body>
+</html>

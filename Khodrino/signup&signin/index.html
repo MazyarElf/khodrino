@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khodrino</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <header>
+        <!-- User Account -->
+         <div class="user-account">
+            <a href="signup&signin/index.html">
+                <i class='bx bxs-user-circle'></i>
+                <p>حساب کاربری</p>
+            </a>
+         </div>
+        <!-- Nav Container -->
+        <div class="nav container">
+                <!-- Menu Icon -->
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <!-- Logo -->
+                <a href="#" class="logo">Khod<span>rino</span></a>
+                <!-- basket -->
+                <a href="shopping cart/index.html"><i class='bx bx-basket' id="basket-icon"><br><span>سبد خرید</span></i></a>
+                <!-- Nav List-->
+                <ul class="navbar rtl">
+                    <li><a href="#home" class="active">خانه</a></li>
+                    <li><a href="#category">دسته بندی</a></li>
+                    <li><a href="#products">محصولات</a></li>
+                    <li><a href="#about-us">درباره ی ما</a></li>
+                    <li><a href="#offer">فروش ویژه</a></li>
+                </ul>
+                <!-- Search Icon-->
+                <i class='bx bx-search' id="search-icon"><br><span>جست و جو</span></i>
+                <!-- Search Box -->
+                <div class="search-box container rtl">
+                    <input type="search" name="" id="" placeholder="جست و جو ...">
+                </div>
+            </div>
+    </header>
+    
+    <div class="container">
+        <div class="form-box">
+            <img src="/img/logo/logo.png" alt="" id="logo">
+            <h1 id="title">ثبت نام</h1>
+            <form id="form">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="نام کاربری" id="textinput" value="">
+                    </div>
+                    <div class="input-field" id="namefield">
+                        <i class='bx bx-phone'></i>
+                        <input type="tel" placeholder="09*********" class="ltr" id="telinput" value="">
+                    </div>
+                    <div class="input-field">
+                        <i class='bx bx-lock-open-alt'></i>
+                        <input type="password" placeholder="رمز عبور" id="passinput" value="">
+                    </div>
+                    <p>فراموشی رمز؟<a href="#">کلیک کنید!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupbtn">ثبت نام</button>
+                    <button type="button" id="signinbtn" class="disable">ورود</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
